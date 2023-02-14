@@ -1,0 +1,60 @@
+header {
+    background-color: black;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 250px;
+}
+
+a[href="#Mercure"] {
+    text-decoration: underline;
+}
+
+header div img {
+    height: 25px;
+}
+
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header li a {
+    color: white;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+header img{
+    padding: 0px;
+}
+
+main article {
+    display: flex;
+    margin: 40px 400px;
+}
+
+main article div{
+    padding-left: 100px;
+}
+
+.tellurique {
+    background-color: rgb(161, 161, 75);
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+}
+
+.antiquite {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}

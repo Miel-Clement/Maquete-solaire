@@ -1,12 +1,14 @@
-header {
-    background-color: black;
+*{
+    margin: 0;
+    padding: 0;
 }
 
+
 header div {
+    background-color: black;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: 0px 250px;
+    padding: 15px 400px;
 }
 
 a[href="#Mercure"] {
@@ -15,6 +17,7 @@ a[href="#Mercure"] {
 
 header div img {
     height: 25px;
+    align-items: center;
 }
 
 
@@ -30,9 +33,6 @@ header li a {
     font-size: 12px;
 }
 
-header img{
-    padding: 0px;
-}
 
 main article {
     display: flex;
@@ -40,7 +40,11 @@ main article {
 }
 
 main article div{
-    padding-left: 100px;
+    padding-left: 50px; 
+}
+
+header div img{
+    width: fit-content;
 }
 
 .tellurique {
@@ -49,6 +53,7 @@ main article div{
     padding: 3px;
     box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
     margin-right: 10px;
+    margin-bottom: 150px;
 }
 
 .antiquite {
@@ -57,4 +62,8 @@ main article div{
     border-radius: 5px;
     padding: 3px;
     box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+p, h2{
+    margin-bottom: 5px;
 }
